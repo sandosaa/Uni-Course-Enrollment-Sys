@@ -49,11 +49,7 @@ def add(name,course,email):
         if not data:
             data_id = 1
         else:
-            data_id =1
-            for i in data:
-                if i['id']> data_id:
-                    data_id = i['id']
-            data_id+=1
+            data_id = data[-1]['id'] + 1
                 
         click.echo(f'{name[0]} {name[1]} is added to the system, its ID = {data_id}')
         data_name=name[0]+" "+name[1]
