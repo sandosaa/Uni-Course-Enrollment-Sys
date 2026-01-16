@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "sondos mohamed",
+    "course": [
+      "Natural Language Processing"
+    ],
+    "email": "Not signed"
+  },
+  {
+    "id": 2,
+    "name": "Eman Ahmed",
+    "course": [
+      "Data Structures"
+    ],
+    "email": "emy@hotmail.com"
+  }
+]
